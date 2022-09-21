@@ -80,6 +80,7 @@ li{
     padding: 30px;
     margin: 50px;
 }
+
 .fotosProd{
     display: flex;
     flex-flow: row;
@@ -89,7 +90,6 @@ li{
 
 .fotosProd img{
     width: 200px;
-    display: block;
     margin: 10px;
     border: 2px solid black;
 }
@@ -107,9 +107,11 @@ li{
     width: 30px;
     display: block;
 }
+
 .col .sociales{
     display: block;
 }
+
 .redes .sociales{
     font-family: 'Amatic SC', cursive;
     font-size: 1.3rem;
@@ -136,19 +138,27 @@ legend{
     font-size: 1rem;
     font-family: 'Mulish', sans-serif;
 }
+
 .accordion .accordion-item .accordion-body{
     background-image: url(./img/NO\ ME\ OLVIDES.jpg);
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
+
 .accordion .accordion-collapse .accordion-body .p{
     background-color: rgba(255, 255, 255, 0.699);
 }
+
 .row{
     background-color: rgba(255, 255, 255, 0.644);
 }
 
+.btnav a {
+    font-size: 1.2rem;
+    color: rgb(35, 2, 66);
+    font-style: oblique;    
+}
 
 .footer{
     background-color: rgba(255, 255, 255, 0.637);
@@ -157,8 +167,9 @@ legend{
     font-family: 'Mulish', sans-serif;
 }
 .footer a{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     text-decoration: none;
+    color: rgb(42, 3, 78);
 }
 footer{
     background-color: rgb(212, 208, 208);
