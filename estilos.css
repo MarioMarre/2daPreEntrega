@@ -31,12 +31,18 @@ nav{
   
  }
 
-li{
+.menu li{
     display: inline-block;
-    width: 20%;
+    width: 100%;
+    padding: 10px;
     font-size: 2rem;
     font-family: 'Mulish', sans-serif;
    
+ }
+
+.menu li a{
+    text-decoration: none;
+    color: black;
  }
 
 .menu li a:hover{
@@ -44,16 +50,9 @@ li{
     color: white;
  }
  
-.menu li a{
-    text-decoration: none;
-    color: black;
- }
-
 .seccion1{
     background-image: url(./img/fondo1.jpg);
-    height: 500px;
-    background-attachment: fixed;
-    background-position: center;
+    background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px;
@@ -175,5 +174,18 @@ footer{
     background-color: rgb(212, 208, 208);
 }
 
+@media only screen and (min-width: 768px) { 
 
-    
+	.seccion1{
+		background-image: url(./img/fondo1.jpg);
+		background-attachment: fixed;
+		background-position: center;
+	 }
+	
+	.menu li{
+		display:inline-block;
+		width: 20%;
+		padding: 0;
+	 }
+
+}
