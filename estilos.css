@@ -226,7 +226,7 @@ footer{
 		background-attachment: fixed;
 		background-position: center;
         overflow: auto;
-        width: auto;       
+        width: 500px;       
     }
 
     .scrollspy .item{
