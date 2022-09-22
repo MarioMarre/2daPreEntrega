@@ -169,8 +169,12 @@ footer{
 		background-image: url(./img/fondo1.jpg);
 		background-attachment: fixed;
 		background-position: center;
+        overflow: auto;
+        height: 500px;
 	 }
-	
+     
+
+
 	.menu li{
 		display:inline-block;
 		width: 20%;
