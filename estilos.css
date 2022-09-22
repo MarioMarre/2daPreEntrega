@@ -221,18 +221,10 @@ footer{
         width: 300px;
     }
 
-    .seccion1{
-		background-image: url(./img/fondo1.jpg);
-		background-attachment: fixed;
-		background-position: center;
-        overflow: auto;
-        width: 300px;     
-    }
 
     .scrollspy .item{
         text-align: right;
     }
-    
     
 
 }  
