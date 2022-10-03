@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$bgcolor: #d4d0d0;
+$negro: #000000;
+$blanco: #ffffff;
+$ltitulo: 'Amatic SC', cursive;
+$lparrafo: 'Mulish', sans-serif;
+
+
+
+body{
+    background-image: url(/img/florNMO.jpg);
+    background-position: center;
+    .navBack{
+        div{   
+            text-align: center;
+            
+            .logo{
+               width: 600px;
+            }
+        }
+        nav{
+            text-align: center;
+        
+            .menu{
+                background-color:$bgcolor;
+                padding: 0;
+                width: 70%;
+                margin: 0% auto;
+                list-style-type: none;
+                li{
+                    display: inline;
+                    width: 100%;
+                    padding: 15px;
+                    font-size: 2rem;
+                    font-family: $lparrafo;
+                    a{
+                        text-decoration: none;
+                        color: $negro;
+                        &:hover{
+                            background-color: $negro;
+                            color: $blanco;
+                        }
+                    }  
+                }
+            }
+           
+        }  
+    }
+    main{
+        .seccion1{
+            background-image: url(./img/fondo1.jpg);
+            background-position: center right;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 30px;
+            margin: 50px;
+            h3{
+                font-size: 2.5rem;
+                font-family: $ltitulo;
+            }
+            .p1{
+                background-color: rgba(255, 255, 255, 0.473);
+                font-family: $lparrafo;
+                font-size: 1.5rem;
+            }
+            .accordion{
+                .accordion-item{ 
+                    .accordion-collapse{
+                        .accordion-body{
+                            background-image: url(./img/NO\ ME\ OLVIDES.jpg);
+                            background-position: center;
+                            background-attachment: fixed;
+                            background-repeat: no-repeat;
+                            .p{
+                                background-color: rgba(255, 255, 255, 0.699);
+                            }
+                        }                    
+                    }
+                }
+            }
+            .row{
+                background-color: rgba(255, 255, 255, 0.644);
+                .nav-link{
+                    text-align: left;
+                    font-family: $lparrafo;
+                }
+                .scrollspy .item{
+                    text-align: justify;
+                    font-family: $lparrafo;
+                }
+            }   
+        
+        }
+        .seccion2{
+            background-image: url(./img/fondo2.jpg);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 30px;
+            margin: 50px;
+            legend{
+                font-size: 2rem;
+                font-family: $ltitulo;
+                text-align: center;
+            }
+            .form{
+                font-size: 1rem;
+                font-family: $lparrafo;
+            }
+        }
+        .seccion3{
+            padding: 30px;
+            margin: 50px;
+            h3{
+                font-size: 2.5rem;
+                font-family: $ltitulo;
+            }
+            .fotosProd{
+                display: flex;
+                flex-flow: row;
+                flex-wrap: wrap;
+                padding: 1rem;
+                img{
+                    width: 200px;
+                    margin: 10px;
+                    border: 2px solid $negro;
+                }
+            }
+        }
+        .seccion4{
+            padding: 30px;
+            margin: 50px;
+            h3{
+                font-size: 2.5rem;
+                font-family: $ltitulo;
+            }
+            .redes {
+                .row{
+                    background-color: rgba(255, 255, 255, 0.644);
+                    .col{
+                        .logoredes{
+                            width: 30px;
+                            display: block;
+                        }
+                        .sociales{
+                            display: block;
+                            font-family: $ltitulo !important;
+                            font-size: 1.3rem;
+                        }
+                        a{
+                            font-family: $lparrafo !important;
+                            text-decoration: none;
+                            font-size: 1.3rem;
+
+                    }
+                }
+            }
+        }
+      
+    }
+    .btnav{
+        a {
+            font-size: 1.2rem;
+            color: rgb(35, 2, 66);
+            font-style: oblique !important;    
+        }
+    } 
+    }
+}   
+
+footer{
+    background-color: $bgcolor;
+    .footer{
+        background-color: rgba(255, 255, 255, 0.637);
+        font-size: 1.5rem;
+        text-align: justify;
+        font-family: $lparrafo;
+        a{
+            font-size: 0.9rem;
+            text-decoration: none;
+            color: rgb(42, 3, 78);
+        }
+    }
+}
+
