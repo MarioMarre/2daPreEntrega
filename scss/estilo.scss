@@ -13,7 +13,7 @@ $lparrafo: 'Mulish', sans-serif;
 
 
 body{
-    background-image: url(/img/florNMO.jpg);
+    background-image: url(../img/florNMO.jpg);
     background-position: center;
     .navBack{
         div{   
@@ -47,8 +47,7 @@ body{
                         }
                     }  
                 }
-            }
-           
+            }   
         }  
     }
     main{
@@ -150,29 +149,28 @@ body{
                         }
                         .sociales{
                             display: block;
-                            font-family: $ltitulo !important;
+                            font-family: $ltitulo;
                             font-size: 1.3rem;
                         }
                         a{
-                            font-family: $lparrafo !important;
+                            font-family: $lparrafo;
                             text-decoration: none;
                             font-size: 1.3rem;
 
+                        }
                     }
                 }
             }
         }
-      
+        .btnav{
+            a {
+                font-size: 1.2rem;
+                color: rgb(35, 2, 66);
+                font-style: oblique !important;    
+            }
+        } 
     }
-    .btnav{
-        a {
-            font-size: 1.2rem;
-            color: rgb(35, 2, 66);
-            font-style: oblique !important;    
-        }
-    } 
-    }
-}   
+} 
 
 footer{
     background-color: $bgcolor;
