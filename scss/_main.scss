@@ -1,0 +1,125 @@
+main{
+    .seccion1{
+        background-image: url(../img/fondo1.jpg);
+        
+        background-position: center right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 30px;
+        margin: 50px;
+        h3{
+            font-size: 2.5rem;
+            font-family: $ltitulo;
+        }
+        .p1{
+            background-color: rgba(255, 255, 255, 0.473);
+            font-family: $lparrafo;
+            font-size: 1.5rem; 
+            text-align: justify;
+            line-height: 3rem;
+        }
+        .accordion{
+            .accordion-item{ 
+                .accordion-collapse{
+                    .accordion-body{
+                        background-image: url(../img/NO\ ME\ OLVIDES1jpg.jpg);
+                        background-position: center;
+                        background-attachment: fixed;
+                        background-repeat: no-repeat;
+                        .p{
+                            background-color: rgba(255, 255, 255, 0.699);
+                        }
+                    }                    
+                }
+            }
+        }
+        .row{
+            background-color: rgba(255, 255, 255, 0.644);
+            .nav-link{
+                text-align: left;
+                font-family: $lparrafo;
+            }
+            .scrollspy .item{
+                text-align: justify;
+                font-family: $lparrafo;
+            }
+        }   
+    
+    }
+    .seccion2{
+        background-image: url(../img/fondo2.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 30px;
+        margin: 50px;
+        legend{
+            font-size: 2rem;
+            font-family: $ltitulo;
+            text-align: center;
+            
+        }
+        .form{
+            font-size: 1rem;
+            font-family: $lparrafo;
+            padding-left: 40%;
+            
+        }
+    }
+    .seccion3{
+        padding: 30px;
+        margin: 50px;
+        h3{
+            font-size: 2.5rem;
+            font-family: $ltitulo;
+        }
+        .fotosProd{
+            display: flex;
+            flex-flow: row;
+            flex-wrap: wrap;
+            padding: 1rem;
+            img{
+                width: 200px;
+                margin: 10px;
+                border: 2px solid $negro;
+            }
+        }
+    }
+    .seccion4{
+        padding: 30px;
+        margin: 50px;
+        h3{
+            font-size: 2.5rem;
+            font-family: $ltitulo;
+        }
+        .redes {
+            .row{
+                background-color: rgba(255, 255, 255, 0.644);
+                .col{
+                    .logoredes{
+                        width: 30px;
+                        display: block;
+                    }
+                    .sociales{
+                        display: block;
+                        font-family: $ltitulo;
+                        font-size: 1.3rem;
+                    }
+                    a{
+                        font-family: $lparrafo;
+                        text-decoration: none;
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+    .btnav{
+        a{
+           font-size: 1.2rem;
+           color: rgb(35, 2, 66);
+           font-style: oblique !important;    
+        }
+    } 
+}

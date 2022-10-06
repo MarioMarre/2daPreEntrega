@@ -8,76 +8,81 @@ body {
   background-image: url(../img/florNMO.jpg);
   background-position: center;
 }
-body .navBack div {
+
+.navBack div {
   text-align: center;
 }
-body .navBack div .logo {
-  width: 600px;
-}
-body .navBack nav {
+.navBack div .logo {
+  width: 400px;
   text-align: center;
 }
-body .navBack nav .menu {
+.navBack nav {
+  text-align: center;
+}
+.navBack nav .menu {
   background-color: #d4d0d0;
   padding: 0;
   width: 70%;
   margin: 0% auto;
   list-style-type: none;
 }
-body .navBack nav .menu li {
+.navBack nav .menu li {
   display: inline;
   width: 100%;
   padding: 15px;
   font-size: 2rem;
   font-family: "Mulish", sans-serif;
 }
-body .navBack nav .menu li a {
+.navBack nav .menu li a {
   text-decoration: none;
   color: #000000;
 }
-body .navBack nav .menu li a:hover {
+.navBack nav .menu li a:hover {
   background-color: #000000;
   color: #ffffff;
 }
-body main .seccion1 {
-  background-image: url(./img/fondo1.jpg);
+
+main .seccion1 {
+  background-image: url(../img/fondo1.jpg);
   background-position: center right;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px;
   margin: 50px;
 }
-body main .seccion1 h3 {
+main .seccion1 h3 {
   font-size: 2.5rem;
   font-family: "Amatic SC", cursive;
 }
-body main .seccion1 .p1 {
+main .seccion1 .p1 {
   background-color: rgba(255, 255, 255, 0.473);
   font-family: "Mulish", sans-serif;
   font-size: 1.5rem;
+  text-align: justify;
+  line-height: 3rem;
 }
-body main .seccion1 .accordion .accordion-item .accordion-collapse .accordion-body {
-  background-image: url(./img/NO\ ME\ OLVIDES.jpg);
+main .seccion1 .accordion .accordion-item .accordion-collapse .accordion-body {
+  background-image: url(../img/NO\ ME\ OLVIDES1jpg.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-body main .seccion1 .accordion .accordion-item .accordion-collapse .accordion-body .p {
+main .seccion1 .accordion .accordion-item .accordion-collapse .accordion-body .p {
   background-color: rgba(255, 255, 255, 0.699);
 }
-body main .seccion1 .row {
+main .seccion1 .row {
   background-color: rgba(255, 255, 255, 0.644);
 }
-body main .seccion1 .row .nav-link {
+main .seccion1 .row .nav-link {
   text-align: left;
   font-family: "Mulish", sans-serif;
 }
-body main .seccion1 .row .scrollspy .item {
+main .seccion1 .row .scrollspy .item {
   text-align: justify;
   font-family: "Mulish", sans-serif;
 }
-body main .seccion2 {
-  background-image: url(./img/fondo2.jpg);
+main .seccion2 {
+  background-image: url(../img/fondo2.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -85,60 +90,61 @@ body main .seccion2 {
   padding: 30px;
   margin: 50px;
 }
-body main .seccion2 legend {
+main .seccion2 legend {
   font-size: 2rem;
   font-family: "Amatic SC", cursive;
   text-align: center;
 }
-body main .seccion2 .form {
+main .seccion2 .form {
   font-size: 1rem;
   font-family: "Mulish", sans-serif;
+  padding-left: 40%;
 }
-body main .seccion3 {
+main .seccion3 {
   padding: 30px;
   margin: 50px;
 }
-body main .seccion3 h3 {
+main .seccion3 h3 {
   font-size: 2.5rem;
   font-family: "Amatic SC", cursive;
 }
-body main .seccion3 .fotosProd {
+main .seccion3 .fotosProd {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
   padding: 1rem;
 }
-body main .seccion3 .fotosProd img {
+main .seccion3 .fotosProd img {
   width: 200px;
   margin: 10px;
   border: 2px solid #000000;
 }
-body main .seccion4 {
+main .seccion4 {
   padding: 30px;
   margin: 50px;
 }
-body main .seccion4 h3 {
+main .seccion4 h3 {
   font-size: 2.5rem;
   font-family: "Amatic SC", cursive;
 }
-body main .seccion4 .redes .row {
+main .seccion4 .redes .row {
   background-color: rgba(255, 255, 255, 0.644);
 }
-body main .seccion4 .redes .row .col .logoredes {
+main .seccion4 .redes .row .col .logoredes {
   width: 30px;
   display: block;
 }
-body main .seccion4 .redes .row .col .sociales {
+main .seccion4 .redes .row .col .sociales {
   display: block;
   font-family: "Amatic SC", cursive;
   font-size: 1.3rem;
 }
-body main .seccion4 .redes .row .col a {
+main .seccion4 .redes .row .col a {
   font-family: "Mulish", sans-serif;
   text-decoration: none;
   font-size: 1.3rem;
 }
-body main .btnav a {
+main .btnav a {
   font-size: 1.2rem;
   color: rgb(35, 2, 66);
   font-style: oblique !important;
@@ -157,4 +163,40 @@ footer .footer a {
   font-size: 0.9rem;
   text-decoration: none;
   color: rgb(42, 3, 78);
+}
+
+@media only screen and (min-width: 768px) {
+  .seccion1 {
+    background-image: url(../img/fondo1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    overflow: auto;
+    height: 500px;
+  }
+  .seccion2 {
+    background-image: url(../img/fondo2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .menu li {
+    display: inline-block;
+    width: 20%;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 200px;
+  }
+  .seccion1 {
+    overflow: auto;
+    height: 300px;
+    font-size: 1rem;
+  }
+  .seccion1 h3 {
+    font-size: 2rem;
+  }
+  .scrollspy .item {
+    text-align: right;
+  }
 }/*# sourceMappingURL=estilo.css.map */
