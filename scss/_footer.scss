@@ -8,7 +8,11 @@ footer{
         a{
             font-size: 0.9rem;
             text-decoration: none;
-            color: rgb(42, 3, 78);
+            color: $negro;
+            &:hover{
+                color:rgb(41, 5, 139);
+            }
+            
         }
     }
 }
