@@ -21,8 +21,8 @@
     
     .logo{
        width: 200px;
-      
     }
+
     .seccion1{
       overflow: auto;
       height: 300px;
@@ -30,14 +30,11 @@
       h3{
         font-size: 2rem;
       }
-    }
-    .seccion2{
-      .form{
-        font-size: 1rem;
-        font-family: $lparrafo;        
+      .p1{
+        line-height: 1.5rem;
       }
     }
-    
+        
     .scrollspy .item {
       text-align: right;
     }

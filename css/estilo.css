@@ -98,7 +98,6 @@ main .seccion2 legend {
 main .seccion2 .form {
   font-size: 1rem;
   font-family: "Mulish", sans-serif;
-  padding-left: 40%;
 }
 main .seccion3 {
   padding: 30px;
@@ -195,6 +194,9 @@ footer .footer a {
   }
   .seccion1 h3 {
     font-size: 2rem;
+  }
+  .seccion1 .p1 {
+    line-height: 1.5rem;
   }
   .scrollspy .item {
     text-align: right;
