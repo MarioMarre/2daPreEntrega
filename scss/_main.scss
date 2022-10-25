@@ -85,6 +85,11 @@ main{
         }
     }
     .seccion4{
+        background-image: url(../img/fondo1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         padding: 30px;
         margin: 50px;
         h3{
